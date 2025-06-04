@@ -38,7 +38,7 @@ The core idea is to convert each 2-second music segment into a mel-spectrogram i
 ## Data and Methods
 
 - **Genres**: Arabesk, Caz, Elektronik, Punk, Tasavvuf, and 5 others.
-- **Total Data**: 1500 songs × 4 segments = 6000 mel-spectrogram images.
+- **Total Data**: 1500 songs × 3 segments = 4500 mel-spectrogram images.
 - **Sampling Rates Tested**: 11025, 22050, **44100 (optimal)**.
 - **Feature Extraction**: 
   - Used `librosa.feature.melspectrogram` with `n_fft=512`, `n_mels=64`, `hop_length=256`.
